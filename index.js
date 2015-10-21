@@ -1,8 +1,19 @@
-var http = require('http');
+// Faker init.
+console.log("----------------------------------------------------------------");
+console.log("Faker 0.0.0");
+console.log("----------------------------------------------------------------");
 
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
-}).listen(1337, '127.0.0.1');
 
-console.log('Server running at http://127.0.0.1:1337/');
+// Require the Express NodeJS module.
+var express = require('express');
+console.log("Express (NodeJS module) loaded.");
+
+// And create our Express app instance.
+var app = express();
+
+var apiRouter = require('./libs/router/api');
+app.use('/api', apiRouter);
+
+console.log();
+console.log("Starting server at localhost:3000");
+app.listen(3000);
