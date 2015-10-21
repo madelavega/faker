@@ -1,0 +1,31 @@
+{
+  "name": "idf-faker",
+  "version": "0.0.0",
+  "description": "Fake a RESTful API backend using NodeJS and forget about mockups.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfconde/faker.git"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "faker",
+    "fake",
+    "url",
+    "endpoints"
+  ],
+  "author": "jfconde",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jfconde/faker/issues"
+  },
+  "homepage": "https://github.com/jfconde/faker#readme",
+  "dependencies": {
+    "express": "4.13.X"
+  }
+}
