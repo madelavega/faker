@@ -1,0 +1,11 @@
+{
+  "appName" : "fakerServer",
+  "port" : 3001,
+
+  "path": {
+    "appServers" : "./example/servers"
+  },
+
+  "staticPublicPath": "/pub",
+  "staticFilePath": "public_html"
+}
