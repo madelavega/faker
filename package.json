@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jfconde/faker#readme",
   "dependencies": {
-    "express": "4.13.X"
+    "express": "4.13.X",
+
   }
 }
