@@ -27,6 +27,10 @@ app.init = function(){
     // Start serving static files as well.
     app.serveStaticFiles();
 
+    console.log("XXX_X_X_X_X_X_X_TEST_T__X_X_X_X_");
+    var server = require('./libs/core/Server');
+    server.constructor("exampleApp");
+
     console.log("----------------------------------------------------------------");
     console.log("Server available at: " + GLOBAL.appUrl);
     console.log("Web frontend address: " + GLOBAL.staticUrl);

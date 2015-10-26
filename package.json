@@ -27,6 +27,6 @@
   "homepage": "https://github.com/jfconde/faker#readme",
   "dependencies": {
     "express": "4.13.X",
-
+    "fs-extra": "0.25.X"
   }
 }
