@@ -29,7 +29,10 @@ app.init = function(){
 
     console.log("XXX_X_X_X_X_X_X_TEST_T__X_X_X_X_");
     var server = require('./libs/core/Server');
-    server.constructor("exampleApp");
+    var Model = require('./libs/core/Model');
+    var n = new Model({name:"kk"});
+    n.getName();
+    Model.createModel();
 
     console.log("----------------------------------------------------------------");
     console.log("Server available at: " + GLOBAL.appUrl);
